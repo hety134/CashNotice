@@ -14,7 +14,7 @@
 2. 引入composer第三方扩展包 composer install
 3. cp .env.example .env
 4. php artisan key:generate
-5. 修改项目中.env文件相应的数据库连接、邮件配置，阿里云服务器不支持25端口，可能会有问题
+5. 修改项目中.env文件相应的数据库连接、邮件配置，阿里云服务器不支持25端口，可将MAIL_PORT设置为465，MAIL_ENCRYPTION设置为ssl，MAIL_FROM_ADDRESS和MAIL_FROM_NAME一定也要设置上
 6.将doc文件夹根下cashNotice.sql导入到数据库
 7. php artisan serve开启项目
 8. 采用beanstalkd队列（建议配合supervisor使用效果最佳）
