@@ -1,9 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : 卡券
-Source Server Version : 50548
-Source Host           : 47.106.110.63:3306
+
 Source Database       : cashNotice
 
 Target Server Type    : MYSQL
